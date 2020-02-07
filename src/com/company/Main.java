@@ -20,7 +20,7 @@ public class Main {
         /*Printing the List*/
         linkedList.printList();
         System.out.println("=========");
-        
+
     }
 
 }
