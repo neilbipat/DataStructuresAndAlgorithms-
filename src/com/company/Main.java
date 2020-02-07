@@ -13,6 +13,10 @@ public class Main {
         Node second = new Node(2);
         Node third = new Node(3);
 
+        /*Conecting the nodes*/
+      linkedList.head.next = second;
+      second.next = third;
+
     }
 
 }
