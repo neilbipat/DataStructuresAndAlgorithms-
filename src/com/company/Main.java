@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 	LinkedList linkedList = new LinkedList();
 
-	/*Creating the Head Node*/
+	    /*Creating the Head Node*/
         Node first = new Node(1);
         linkedList.head = first;
 
@@ -14,9 +14,13 @@ public class Main {
         Node third = new Node(3);
 
         /*Conecting the nodes*/
-      linkedList.head.next = second;
-      second.next = third;
+        linkedList.head.next = second;
+        second.next = third;
 
+        /*Printing the List*/
+        linkedList.printList();
+        System.out.println("=========");
+        
     }
 
 }
