@@ -37,6 +37,16 @@ public class LinkedList {
         var.next = null;
     }
 
+    /*Delete From First in the list*/
+    public void deleteFirst(){
+        Node var = head;
+        if(var.next != null){
+            head = head.next;
+        }else{
+            head = null;
+        }
+    }
+
 
 
 
