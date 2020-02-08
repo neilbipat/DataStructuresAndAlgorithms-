@@ -28,6 +28,17 @@ public class LinkedList {
         }
     }
 
+    /*Deleting From the End of the list*/
+    public void deleteEndOfList(){
+        Node var = head;
+        while(var.next.next != null){
+            var = var.next;
+        }
+        var.next = null;
+    }
+
+    
+
 
 
 
