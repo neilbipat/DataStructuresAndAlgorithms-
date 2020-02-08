@@ -21,6 +21,11 @@ public class Main {
         linkedList.printList();
         System.out.println("=========");
 
+        /*Adding to End of List*/
+        linkedList.addToEndOfList(4);
+        linkedList.printList();
+        System.out.println("=========");
+
     }
 
 }
