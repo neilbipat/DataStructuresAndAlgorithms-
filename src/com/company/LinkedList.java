@@ -13,6 +13,23 @@ public class LinkedList {
         }
     }
 
+    /*Adding Nodes to the end of the list*/
+    public void addToEndOfList(int data){
+        Node var = new Node(data);
+        if(head == null){
+            head = var;
+        } else {
+            Node last = head;
+
+            while(last.next != null){
+                last = last .next;
+            }
+            last.next = var;
+        }
+    }
+
+
+
 
 }
 
