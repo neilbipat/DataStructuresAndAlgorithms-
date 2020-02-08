@@ -26,10 +26,18 @@ public class Main {
         linkedList.printList();
         System.out.println("=========");
 
+        /*When Testing one delete function, the others should be commented out*/
+
         /*Delete End of a List*/
-        linkedList.deleteEndOfList();
+//        linkedList.deleteEndOfList();
+//        linkedList.printList();
+//        System.out.println("=========");
+
+        /*Delete First of a List*/
+        linkedList.deleteFirst();
         linkedList.printList();
         System.out.println("=========");
+
 
     }
 
