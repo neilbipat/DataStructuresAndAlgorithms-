@@ -47,6 +47,18 @@ public class LinkedList {
         }
     }
 
+    /*Delete Anywhere in the LinkedList*/
+    public void delete(int numToDelete){
+        Node var = head;
+        if(head != null && head.data == numToDelete){
+            head = head.next;
+        }else{
+            while(var.next.data != numToDelete){
+                var = var.next;
+            }
+            var.next = var.next.next;
+        }
+    }
 
 
 

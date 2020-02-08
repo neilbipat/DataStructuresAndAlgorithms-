@@ -29,12 +29,17 @@ public class Main {
         /*When Testing one delete function, the others should be commented out*/
 
         /*Delete End of a List*/
-//        linkedList.deleteEndOfList();
-//        linkedList.printList();
-//        System.out.println("=========");
+        linkedList.deleteEndOfList();
+        linkedList.printList();
+        System.out.println("=========");
 
         /*Delete First of a List*/
         linkedList.deleteFirst();
+        linkedList.printList();
+        System.out.println("=========");
+
+        /*Delete Anywhere in the List*/
+        linkedList.delete(4);
         linkedList.printList();
         System.out.println("=========");
 
