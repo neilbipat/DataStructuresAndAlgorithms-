@@ -59,11 +59,6 @@ public class LinkedList {
             var.next = var.next.next;
         }
     }
-
-
-
-
-
 }
 
 
