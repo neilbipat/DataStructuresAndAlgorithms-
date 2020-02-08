@@ -26,6 +26,11 @@ public class Main {
         linkedList.printList();
         System.out.println("=========");
 
+        /*Delete End of a List*/
+        linkedList.deleteEndOfList();
+        linkedList.printList();
+        System.out.println("=========");
+
     }
 
 }
